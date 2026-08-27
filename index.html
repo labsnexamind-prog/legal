@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Legal — NexaMind Labs</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #f8fafc;
+      color: #1a1a2e;
+      min-height: 100vh;
+    }
+    header {
+      background: linear-gradient(135deg, #1a56db 0%, #1e429f 100%);
+      padding: 48px 24px 40px;
+      text-align: center;
+    }
+    .logo-ring {
+      width: 64px; height: 64px;
+      border-radius: 50%;
+      background: rgba(255,255,255,0.15);
+      display: flex; align-items: center; justify-content: center;
+      margin: 0 auto 20px;
+      font-size: 28px; font-weight: 700; color: #fff;
+      letter-spacing: -1px;
+    }
+    header h1 { color: #fff; font-size: 24px; font-weight: 700; margin-bottom: 6px; }
+    header p  { color: rgba(255,255,255,0.72); font-size: 14px; }
+
+    main {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 40px 20px 80px;
+    }
+
+    .section-label {
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 1.2px;
+      color: #9ca3af;
+      text-transform: uppercase;
+      margin-bottom: 16px;
+    }
+
+    .app-card {
+      background: #fff;
+      border: 0.5px solid #e5e7eb;
+      border-radius: 16px;
+      padding: 20px 24px;
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      text-decoration: none;
+      transition: border-color 0.15s;
+    }
+    .app-card:hover { border-color: #1a56db; }
+
+    .app-icon {
+      width: 52px; height: 52px;
+      border-radius: 14px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 22px; font-weight: 700;
+      flex-shrink: 0;
+    }
+    .icon-blue   { background: #e6f1fb; color: #1a56db; }
+    .icon-purple { background: #eeedfe; color: #534ab7; }
+    .icon-teal   { background: #e1f5ee; color: #0f6e56; }
+
+    .app-info { flex: 1; }
+    .app-name {
+      font-size: 16px; font-weight: 600; color: #1a1a2e;
+      margin-bottom: 3px;
+    }
+    .app-desc {
+      font-size: 13px; color: #6b7280; line-height: 1.4;
+    }
+    .app-badge {
+      display: inline-block;
+      margin-top: 8px;
+      padding: 3px 10px;
+      border-radius: 20px;
+      font-size: 11px;
+      font-weight: 500;
+    }
+    .badge-android { background: #e6f1fb; color: #0c447c; }
+
+    .arrow {
+      color: #d1d5db;
+      font-size: 20px;
+      flex-shrink: 0;
+    }
+
+    .coming-soon {
+      background: #f8fafc;
+      border: 0.5px dashed #d1d5db;
+      border-radius: 16px;
+      padding: 20px 24px;
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      opacity: 0.6;
+    }
+    .coming-badge {
+      padding: 3px 10px;
+      border-radius: 20px;
+      font-size: 11px;
+      font-weight: 500;
+      background: #f1efe8;
+      color: #5f5e5a;
+      margin-top: 8px;
+      display: inline-block;
+    }
+
+    .info-box {
+      background: #e6f1fb;
+      border: 0.5px solid #b5d4f4;
+      border-radius: 12px;
+      padding: 16px 20px;
+      margin-top: 32px;
+      font-size: 13px;
+      color: #0c447c;
+      line-height: 1.6;
+    }
+
+    footer {
+      text-align: center;
+      padding: 32px 24px;
+      font-size: 13px;
+      color: #9ca3af;
+      border-top: 0.5px solid #e5e7eb;
+    }
+    footer a { color: #1a56db; text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo-ring">N</div>
+  <h1>NexaMind Labs — Legal</h1>
+  <p>Privacy policies for all our apps</p>
+</header>
+
+<main>
+  <div class="section-label">Published apps</div>
+
+  <a class="app-card" href="./diagnobuddy/">
+    <div class="app-icon icon-blue">DB</div>
+    <div class="app-info">
+      <div class="app-name">Diagno Buddy</div>
+      <div class="app-desc">AI-powered symptom checker and medical information companion</div>
+      <span class="app-badge badge-android">Android</span>
+    </div>
+    <div class="arrow">›</div>
+  </a>
+
+  <div class="section-label" style="margin-top: 32px;">Coming soon</div>
+
+  <div class="coming-soon">
+    <div class="app-icon icon-purple" style="opacity:0.5">NX</div>
+    <div class="app-info">
+      <div class="app-name" style="color:#6b7280">Your next app</div>
+      <div class="app-desc">Privacy policy will appear here when published</div>
+      <span class="coming-badge">In development</span>
+    </div>
+  </div>
+
+  <div class="info-box">
+    All NexaMind Labs apps are built with your privacy in mind. We collect only what is necessary to provide our services and never sell your personal data. For questions, contact us at <a href="mailto:jyothishn@gmail.com">jyothishn@gmail.com</a>.
+  </div>
+</main>
+
+<footer>
+  &copy; 2026 NexaMind Labs &nbsp;·&nbsp;
+  <a href="https://nexamindlabs.com">nexamindlabs.com</a> &nbsp;·&nbsp;
+  <a href="mailto:info@nexamindlabs.com">info@nexamindlabs.com</a>
+</footer>
+
+</body>
+</html>
